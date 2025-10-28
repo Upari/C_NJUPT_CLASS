@@ -15,13 +15,13 @@ int main(){
         }
         // printf("%d\n", below);
 
-        double upper = m;
+        double top = m;
         for ( int k = 1; k < i; k++ ) {
-            upper *= m;
+            top *= m;
         }
         // printf("%d\n", upper);
 
-        s += flag * ( upper / below );
+        s += flag * ( top / below );
         flag *= -1;
 
     }
